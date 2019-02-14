@@ -40,6 +40,7 @@ case $POWERLEVEL9K_MODE in
       FAIL_ICON                      $'\u2718'              # ✘
       SYMFONY_ICON                   'SF'
       NODE_ICON                      $'\u2B22'              # ⬢
+      PHP_ICON                       ''
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'     # ╭─
       MULTILINE_NEWLINE_PROMPT_PREFIX  $'\u251C'$'\U2500'   # ├─
       MULTILINE_LAST_PROMPT_PREFIX   $'\u2570'$'\U2500 '    # ╰─
@@ -140,6 +141,7 @@ case $POWERLEVEL9K_MODE in
       FAIL_ICON                      $'\u2718'              # ✘
       SYMFONY_ICON                   'SF'
       NODE_ICON                      $'\u2B22'              # ⬢
+      PHP_ICON                       ''
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'     # ╭─
       MULTILINE_NEWLINE_PROMPT_PREFIX  $'\u251C'$'\U2500'   # ├─
       MULTILINE_LAST_PROMPT_PREFIX   $'\u2570'$'\U2500 '    # ╰─
@@ -245,6 +247,7 @@ case $POWERLEVEL9K_MODE in
       FAIL_ICON                      '\u'$CODEPOINT_OF_AWESOME_TIMES                # 
       SYMFONY_ICON                   'SF'
       NODE_ICON                      $'\u2B22'                                      # ⬢
+      PHP_ICON                       ''
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'                             # ╭─
       MULTILINE_SECOND_PROMPT_PREFIX $'\u2570'$'\U2500 '                            # ╰─
       APPLE_ICON                     '\u'$CODEPOINT_OF_AWESOME_APPLE                # 
@@ -338,6 +341,7 @@ case $POWERLEVEL9K_MODE in
       FAIL_ICON                      $'\uF00D'              # 
       SYMFONY_ICON                   $'\uE757'              # 
       NODE_ICON                      $'\uE617 '             # 
+      PHP_ICON                       $'\uE608'              # 
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'     # ╭─
       MULTILINE_NEWLINE_PROMPT_PREFIX  $'\u251C'$'\U2500'   # ├─
       MULTILINE_LAST_PROMPT_PREFIX   $'\u2570'$'\U2500 '    # ╰─
@@ -434,6 +438,7 @@ case $POWERLEVEL9K_MODE in
       FAIL_ICON                      $'\u2718'              # ✘
       SYMFONY_ICON                   'SF'
       NODE_ICON                      $'\u2B22'              # ⬢
+      PHP_ICON                       ''
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'     # ╭─
       MULTILINE_NEWLINE_PROMPT_PREFIX  $'\u251C'$'\U2500'   # ├─
       MULTILINE_LAST_PROMPT_PREFIX   $'\u2570'$'\U2500 '    # ╰─

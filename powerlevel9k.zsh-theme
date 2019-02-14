@@ -1216,7 +1216,7 @@ prompt_node_version() {
   local node_version=$(node -v 2>/dev/null)
   [[ -z "${node_version}" ]] && return
 
-  "$1_prompt_segment" "$0" "$2" "green" "white" "${node_version:1}" 'NODE_ICON'
+  "$1_prompt_segment" "$0" "$2" "green" "022" "${node_version:1}" 'NODE_ICON'
 }
 
 ################################################################
@@ -1255,10 +1255,10 @@ prompt_os_icon() {
 # Segment to display PHP version number
 prompt_php_version() {
   local php_version
-  php_version=$(php -v 2>&1 | grep -oe "^PHP\s*[0-9.]*")
+  php_version=$(php -v 2>&1 | grep -oe "^PHP\s*[0-9.]*" | awk '{print $2}')
 
   if [[ -n "$php_version" ]]; then
-    "$1_prompt_segment" "$0" "$2" "fuchsia" "grey93" "$php_version"
+    "$1_prompt_segment" "$0" "$2" "fuchsia" "grey93" "$php_version" 'PHP_ICON'
   fi
 }
 
